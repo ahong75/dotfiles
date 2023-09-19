@@ -4,6 +4,7 @@
 
 # My config
 export PATH="$PATH:$HOME/bin"
+eval "$(chezmoi completion bash)"
 
 #Vim mode
 set -o vi
