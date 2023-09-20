@@ -3,6 +3,7 @@
 # for examples
 
 # My config
+export PATH="$PATH:$HOME/.local/bin"
 eval "$(chezmoi completion bash)"
 export EDITOR=nvim
 
