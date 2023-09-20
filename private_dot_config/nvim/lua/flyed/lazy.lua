@@ -11,4 +11,18 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("flyed.plugins")
+require("lazy").setup({
+  {import = "flyed.plugins"},
+  {import = "flyed.plugins.lsp"}
+}, {
+  install = {
+    colorscheme = {"gruvbox-material"},
+  },
+  checker = {
+    enabled = true,
+    notified = false
+  },
+  change_detection = {
+    notify = false,
+  },
+})
