@@ -3,6 +3,7 @@ return {
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
     "jay-babu/mason-null-ls.nvim",
+    "jose-elias-alvarez/null-ls.nvim",
   },
   config = function()
     -- import mason
