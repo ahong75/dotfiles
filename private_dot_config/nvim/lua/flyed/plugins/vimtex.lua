@@ -1,5 +1,5 @@
 return {
-  'lervag/vimtex'
+  'lervag/vimtex',
   -- TODO: Lazy load for .tex files only
   config = function()
     -- This is necessary for VimTeX to load properly. The "indent" is optional.
