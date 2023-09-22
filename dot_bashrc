@@ -136,4 +136,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 COLUMNS=250
-source /home/ahong75/alacritty/extra/completions/alacritty.bash
+source ~/.bash_completion/alacritty
