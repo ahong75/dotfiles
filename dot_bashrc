@@ -6,6 +6,7 @@
 export PATH="$PATH:$HOME/.local/bin"
 eval "$(chezmoi completion bash)"
 export EDITOR=nvim
+alias editnvim = "chezmoi edit ~./config/nvim"
 
 #Vim mode
 set -o vi
