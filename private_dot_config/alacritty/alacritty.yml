@@ -58,7 +58,7 @@ font:
     family: Jetbrains Mono NF
     style: Bold Italic
 
-  size: 15
+  size: 12
 
 cursor:
   style:
