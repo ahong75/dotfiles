@@ -8,7 +8,9 @@ return {
     local nvimtree = require("nvim-tree").setup({
       actions = {
         open_file = {
-          eject = true
+          window_picker = {
+            enable = true
+          }
         }
       }
     })
