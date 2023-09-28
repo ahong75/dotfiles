@@ -16,5 +16,7 @@ return {
 
     local keymap = vim.keymap
     keymap.set("n", "<leader>pv", "<cmd>NvimTreeToggle<CR>")
+
+    nvimtree.actions.open_file.eject = 1
   end
 }
