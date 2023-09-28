@@ -5,7 +5,13 @@ return {
   },
   config = function()
     -- empty setup using defaults
-    local nvimtree = require("nvim-tree").setup()
+    local nvimtree = require("nvim-tree").setup({
+      actions = {
+        open_file = {
+          eject = 1
+        }
+      }
+    })
 
     -- disable netrw at the very start of your init.lua
     vim.g.loaded_netrw = 1
@@ -17,6 +23,5 @@ return {
     local keymap = vim.keymap
     keymap.set("n", "<leader>pv", "<cmd>NvimTreeToggle<CR>")
 
-    nvimtree.actions.open_file.eject = 1
   end
 }
